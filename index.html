@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventário TI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Inventário de Ativos</h1>
+
+    <div class="container">
+        <input id="equipamento" placeholder="Equipamento">
+
+        <input id="usuario" placeholder="Responsável">
+
+        <select id="status">
+            <option>Em uso</option>
+            <option>Manutenção</option>
+            <option>Disponível</option>
+        </select>
+
+        <button onclick="cadastrarAtivo()">
+            Cadastrar
+        </button>
+
+        <div id="listaAtivos"></div>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>

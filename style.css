@@ -1,0 +1,36 @@
+body{
+font-family:Arial;
+background:#f4f6f8;
+margin:0;
+}
+
+h1{
+background:#0f172a;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.container{
+width:80%;
+margin:30px auto;
+}
+
+input,select{
+padding:10px;
+margin:5px;
+}
+
+button{
+padding:10px 15px;
+background:#2563eb;
+color:white;
+border:none;
+}
+
+.card{
+background:white;
+padding:15px;
+margin-top:15px;
+border-radius:8px;
+}
